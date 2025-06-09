@@ -37,11 +37,12 @@
         </a>
         <div id="title" style="font-size: 24px; margin-top: 10px; color: #333;"></div>
         <div style="margin-top: 10px;">
-            <button id="prev" onclick="Carousel.Prev()" style="margin-right: 10px;">Anterior</button>
-            <button id="next" onclick="Carousel.Next()">Próximo</button>    
+            <button class="btn-slide prev" onclick="Carousel.Prev()">&#10094;</button>
+            <button class="btn-slide next" onclick="Carousel.Next()">&#10095;</button>    
+            <div id="carousel-indicators" class="carousel-indicators"></div>
+
         </div>
             <span id="text"></span>
-
         </div>
 
         </div>
